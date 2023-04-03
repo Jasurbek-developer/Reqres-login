@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #28223f;
+}
+.card-container{
+    margin: 40px 0;
+    background: #231e39;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+.img-container img{
+    border-radius: 50%;
+    border: 1px solid #03bfcb;
+    padding: 5px;
+}
+.name-container{
+    margin-top: 10px;
+}
+.name-container .firstName,
+.name-container .lastName{
+   margin: 10px 0;
+}
+.email{
+    margin-top: 10px;
+}
